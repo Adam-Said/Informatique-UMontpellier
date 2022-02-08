@@ -1,0 +1,1 @@
+run = "mvn package && mvn exec:java;"

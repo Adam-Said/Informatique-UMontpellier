@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fr-FR">
+        <meta charset="UTF-8">
+        <title>Affectation Groupe-Sujet</title>
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+        </script>
+        <table>
+          <tbody>
+            <tr>
+              <th>Sujets</th>
+              <th>Groupes</th>
+            </tr>
+          <tbody>
+        </table>
+        <script>
+            var data = [
+            ["Groupe1", "Sujet 1"],
+            ["Un super Groupe", "Sujet 2"],
+            ["DOD", "A survey about fuzzy logic"],
+            ["Groupe 2", "Jaaj"]
+            ];
+
+            var tr;
+            for (var i = 0; i < data.length; i++) {
+            tr = $('<tr/>');
+            tr.append("<td>" + data[i][0] + "</td>");
+            tr.append("<td>" + data[i][1] + "</td>");
+            $('table').append(tr);
+            }
+        </script>
+    </body>
+</html>

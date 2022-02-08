@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Groupe.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">gestionTER</a> &gt; <a href="index.source.html" class="el_package">fr.umfds.gestionter</a> &gt; <span class="el_source">Groupe.java</span></div><h1>Groupe.java</h1><pre class="source lang-java linenums">package fr.umfds.gestionter;
+import java.lang.String;
+import java.util.ArrayList;
+
+
+public class Groupe {
+  private int idGroupe;
+  private String nomGroupe;
+  private ArrayList&lt;Etudiant&gt; etudiants;
+  private Sujet sujet;
+<span class="fc" id="L11">  private int tailleGroupe = 6;</span>
+
+  public void setId(int id) throws Exception {
+<span class="fc" id="L14">    this.idGroupe = id;</span>
+<span class="fc" id="L15">  }</span>
+
+  public void setNom(String nom) throws Exception  {
+<span class="fc" id="L18">    this.nomGroupe = nom;</span>
+<span class="fc" id="L19">  }</span>
+  
+  public void setSujet(Sujet s) throws Exception  {
+<span class="fc" id="L22">	    this.sujet = s;</span>
+<span class="fc" id="L23">	  }</span>
+
+  public void setEtudiant(ArrayList&lt;Etudiant&gt; etudiants) throws Exception  {
+<span class="fc" id="L26">    this.etudiants = etudiants;</span>
+<span class="fc" id="L27">  }</span>
+
+  public int getId() throws Exception  {
+<span class="fc" id="L30">    return idGroupe;</span>
+  }
+
+  public String getNomGroupe() throws Exception  {
+<span class="fc" id="L34">    return nomGroupe;</span>
+  }
+  
+  public Sujet getSujet() throws Exception  {
+<span class="fc" id="L38">	    return sujet;</span>
+	  }
+
+  public ArrayList&lt;Etudiant&gt; getEtudiants() throws Exception  {
+<span class="fc" id="L42">    return etudiants;</span>
+  }
+
+<span class="fc" id="L45">  public Groupe() {</span>
+<span class="fc" id="L46">    this.idGroupe = 0;</span>
+<span class="fc" id="L47">    this.nomGroupe = &quot;&quot;;</span>
+<span class="fc" id="L48">    this.etudiants = new ArrayList&lt;Etudiant&gt;();</span>
+<span class="fc" id="L49">    this.sujet = null;</span>
+<span class="fc" id="L50">  }</span>
+
+<span class="fc" id="L52">  public Groupe(int idGroupe, String nom, ArrayList&lt;Etudiant&gt; etudiants) throws ObjetInvalide {</span>
+<span class="fc" id="L53">    this.idGroupe = idGroupe;</span>
+<span class="fc" id="L54">    this.nomGroupe = nom;</span>
+<span class="fc" id="L55">    this.etudiants = etudiants;</span>
+<span class="fc" id="L56">    this.sujet = null;</span>
+<span class="fc" id="L57">  }</span>
+  
+<span class="fc" id="L59">  public Groupe(int idGroupe, String nom) throws ObjetInvalide {</span>
+<span class="fc" id="L60">	    this.idGroupe = idGroupe;</span>
+<span class="fc" id="L61">	    this.nomGroupe = nom;</span>
+<span class="fc" id="L62">	    this.etudiants = null;</span>
+<span class="fc" id="L63">	    this.sujet = null;</span>
+<span class="fc" id="L64">	  }</span>
+ 
+@Override
+  public String toString() {
+<span class="fc" id="L68">    return &quot;\nN° Groupe : &quot; + idGroupe + &quot; - &quot; + nomGroupe ;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

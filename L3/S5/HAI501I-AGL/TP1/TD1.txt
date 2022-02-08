@@ -1,0 +1,11 @@
+Q1. 	(pas dans l'app) plateforme pour que les ENSEIGNANTS renseignent un SUJET et leurs caractéristiques + page pour visualiser
+	Page web avec les sujets
+	(pas dans l'app) page pour que les ETUDIANTS choisissent leur groupe et leurs voeux
+	Page d'affectation en 2 passes 
+	Génération d'une page avec les sujets et leur groupe + encadrant
+	Processus rapporteurs qui affecte un enseignant diff de l'encadrant à un groupe
+	Génération planning à partir d'une periode définie + iCal
+
+	Acteurs : Responsable
+
+

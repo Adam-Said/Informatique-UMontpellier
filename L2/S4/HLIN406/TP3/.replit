@@ -1,0 +1,1 @@
+run = "javac objetPostal/*.java;java objetPostal.MainObjetPostal;"

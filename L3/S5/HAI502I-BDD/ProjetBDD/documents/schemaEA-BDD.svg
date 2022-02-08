@@ -1,0 +1,210 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="718" height="424" view_box="0 0 718 424"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Sat, 18 Dec 2021 02:52:26</desc>
+
+<rect id="frame" x="0" y="0" width="718" height="424" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association Appartient à -->
+<line x1="368" y1="178" x2="518" y2="178" stroke="#4393c3" stroke-width="2"/>
+<text x="433" y="195.0" fill="#b2182b" font-family="Verdana" font-size="12">0,1</text>
+<line x1="518" y1="60" x2="518" y2="178" stroke="#4393c3" stroke-width="2"/>
+<text x="491.0" y="128" fill="#b2182b" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-Appartient à">
+	<path d="M 549 153 a 14 14 90 0 1 14 14 V 178 h -90 V 167 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 563 178.0 v 11 a 14 14 90 0 1 -14 14 H 487 a 14 14 90 0 1 -14 -14 V 178.0 H 90" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="473" y="153" width="90" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="473" y1="178" x2="563" y2="178" stroke="#4393c3" stroke-width="1"/>
+	<text x="480" y="170.7" fill="#000000" font-family="Verdana" font-size="12">Appartient à</text>
+</g>
+
+<!-- Association Possede -->
+<line x1="80" y1="60" x2="216" y2="60" stroke="#4393c3" stroke-width="2"/>
+<text x="156" y="77.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<line x1="368" y1="178" x2="216" y2="60" stroke="#4393c3" stroke-width="2"/>
+<text x="281" y="142.599432854" fill="#b2182b" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-Possede">
+	<path d="M 234 35 a 14 14 90 0 1 14 14 V 60 h -64 V 49 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 248 60.0 v 11 a 14 14 90 0 1 -14 14 H 198 a 14 14 90 0 1 -14 -14 V 60.0 H 64" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="184" y="35" width="64" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="184" y1="60" x2="248" y2="60" stroke="#4393c3" stroke-width="1"/>
+	<text x="191" y="52.7" fill="#000000" font-family="Verdana" font-size="12">Possede</text>
+</g>
+
+<!-- Association Camp du Village -->
+<line x1="80" y1="330" x2="216" y2="330" stroke="#4393c3" stroke-width="2"/>
+<text x="132" y="347.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<path d="M368 178 C 294.833333333 194.166666667 244.166666667 244.833333333 216 330" fill="none" stroke="#4393c3" stroke-width="2"/>
+<text x="281" y="236.929" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-Camp du Village">
+	<path d="M 259 305 a 14 14 90 0 1 14 14 V 330 h -114 V 319 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 273 330.0 v 11 a 14 14 90 0 1 -14 14 H 173 a 14 14 90 0 1 -14 -14 V 330.0 H 114" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="159" y="305" width="114" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="159" y1="330" x2="273" y2="330" stroke="#4393c3" stroke-width="1"/>
+	<text x="166" y="322.7" fill="#000000" font-family="Verdana" font-size="12">Camp du Village</text>
+	<text x="166" y="347.8" fill="#000000" font-family="Verdana" font-size="12">nbrTroupes</text>
+</g>
+
+<!-- Association Heros Du Village -->
+<line x1="80" y1="178" x2="216" y2="178" stroke="#4393c3" stroke-width="2"/>
+<text x="128" y="195.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<line x1="368" y1="178" x2="216" y2="178" stroke="#4393c3" stroke-width="2"/>
+<text x="281" y="195.0" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-Heros Du Village">
+	<path d="M 260 153 a 14 14 90 0 1 14 14 V 178 h -116 V 167 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 274 178.0 v 11 a 14 14 90 0 1 -14 14 H 172 a 14 14 90 0 1 -14 -14 V 178.0 H 116" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="158" y="153" width="116" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="158" y1="178" x2="274" y2="178" stroke="#4393c3" stroke-width="1"/>
+	<text x="165" y="170.7" fill="#000000" font-family="Verdana" font-size="12">Heros Du Village</text>
+</g>
+
+<!-- Association Attaque de Village -->
+<path d="M368 178 C 410.666666667 222.666666667 410.666666667 273.333333333 368 330" fill="none" stroke="#4393c3" stroke-width="2"/>
+<text x="372.0" y="254" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<path d="M368 178 C 325.333333333 222.666666667 325.333333333 273.333333333 368 330" fill="none" stroke="#4393c3" stroke-width="2"/>
+<text x="342.0" y="254" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<line x1="518" y1="330" x2="368" y2="330" stroke="#4393c3" stroke-width="2"/>
+<text x="437" y="347.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-Attaque de Village">
+	<path d="M 417 305 a 14 14 90 0 1 14 14 V 330 h -126 V 319 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 431 330.0 v 11 a 14 14 90 0 1 -14 14 H 319 a 14 14 90 0 1 -14 -14 V 330.0 H 126" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="305" y="305" width="126" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="305" y1="330" x2="431" y2="330" stroke="#4393c3" stroke-width="1"/>
+	<text x="312" y="322.7" fill="#000000" font-family="Verdana" font-size="12">Attaque de Village</text>
+</g>
+
+<!-- Association Est Chef de Clan -->
+<line x1="368" y1="178" x2="368" y2="60" stroke="#4393c3" stroke-width="2"/>
+<text x="373.0" y="111" fill="#b2182b" font-family="Verdana" font-size="12">0,1</text>
+<line x1="518" y1="60" x2="368" y2="60" stroke="#4393c3" stroke-width="2"/>
+<text x="453" y="77.0" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-Est Chef de Clan">
+	<path d="M 412 35 a 14 14 90 0 1 14 14 V 60 h -116 V 49 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 426 60.0 v 11 a 14 14 90 0 1 -14 14 H 324 a 14 14 90 0 1 -14 -14 V 60.0 H 116" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="310" y="35" width="116" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="310" y1="60" x2="426" y2="60" stroke="#4393c3" stroke-width="1"/>
+	<text x="317" y="52.7" fill="#000000" font-family="Verdana" font-size="12">Est Chef de Clan</text>
+</g>
+
+<!-- Association GuerreDeClan -->
+<path d="M518 60 C 581.834713509 45.3071855278 626.501380176 84.6405188612 652 178" fill="none" stroke="#4393c3" stroke-width="2"/>
+<text x="562" y="81.5626386551" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<path d="M518 60 C 511.498619824 125.180376661 556.165286491 164.513709995 652 178" fill="none" stroke="#4393c3" stroke-width="2"/>
+<text x="542.562638655" y="128" fill="#b2182b" font-family="Verdana" font-size="12">0,N</text>
+<line x1="518" y1="330" x2="652" y2="178" stroke="#4393c3" stroke-width="2"/>
+<text x="578" y="278.169062103" fill="#b2182b" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-GuerreDeClan">
+	<path d="M 695 153 a 14 14 90 0 1 14 14 V 178 h -114 V 167 a 14 14 90 0 1 14 -14" fill="#92c5de" stroke="#92c5de" stroke-width="0"/>
+	<path d="M 709 178.0 v 11 a 14 14 90 0 1 -14 14 H 609 a 14 14 90 0 1 -14 -14 V 178.0 H 114" fill="#d1e5f0" stroke="#d1e5f0" stroke-width="0"/>
+	<rect x="595" y="153" width="114" height="50" fill="none" rx="14" stroke="#4393c3" stroke-width="2"/>
+	<line x1="595" y1="178" x2="709" y2="178" stroke="#4393c3" stroke-width="1"/>
+	<text x="609" y="170.7" fill="#000000" font-family="Verdana" font-size="12">GuerreDeClan</text>
+	<text x="602" y="195.8" fill="#000000" font-family="Verdana" font-size="12">nbrAttaquesMax</text>
+</g>
+
+<!-- Entity Clan -->
+<g id="entity-Clan">
+	<g id="frame-Clan">
+		<rect x="479" y="9" width="78" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="479" y="34.0" width="78" height="77" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="479" y="9" width="78" height="102" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="479" y1="34" x2="557" y2="34" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="504" y="26.7" fill="#000000" font-family="Verdana" font-size="12">Clan</text>
+	<text x="484" y="51.7" fill="#000000" font-family="Verdana" font-size="12">idClan</text>
+	<line x1="484" y1="54" x2="522" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="484" y="68.8" fill="#000000" font-family="Verdana" font-size="12">nomClan</text>
+	<text x="484" y="85.8" fill="#000000" font-family="Verdana" font-size="12">regionClan</text>
+	<text x="484" y="102.8" fill="#000000" font-family="Verdana" font-size="12">niveauClan</text>
+</g>
+
+<!-- Entity Attaque -->
+<g id="entity-Attaque">
+	<g id="frame-Attaque">
+		<rect x="463" y="245" width="110" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="463" y="270.0" width="110" height="145" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="463" y="245" width="110" height="170" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="463" y1="270" x2="573" y2="270" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="494" y="262.7" fill="#000000" font-family="Verdana" font-size="12">Attaque</text>
+	<text x="468" y="287.7" fill="#000000" font-family="Verdana" font-size="12">idAttaque</text>
+	<line x1="468" y1="290" x2="527" y2="290" stroke="#000000" stroke-width="1"/>
+	<text x="468" y="304.7" fill="#000000" font-family="Verdana" font-size="12">idAttaquant</text>
+	<text x="468" y="321.7" fill="#000000" font-family="Verdana" font-size="12">idDefenseur</text>
+	<text x="468" y="338.8" fill="#000000" font-family="Verdana" font-size="12">nombreEtoiles</text>
+	<text x="468" y="355.8" fill="#000000" font-family="Verdana" font-size="12">pourcentage</text>
+	<text x="468" y="372.8" fill="#000000" font-family="Verdana" font-size="12">elixirRecolte</text>
+	<text x="468" y="389.8" fill="#000000" font-family="Verdana" font-size="12">orRecolte</text>
+	<text x="468" y="406.8" fill="#000000" font-family="Verdana" font-size="12">elixirNoirRecolte</text>
+</g>
+
+<!-- Entity Reserves -->
+<g id="entity-Reserves">
+	<g id="frame-Reserves">
+		<rect x="9" y="18" width="142" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="9" y="43.0" width="142" height="59" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="9" y="18" width="142" height="84" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="9" y1="43" x2="151" y2="43" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="52" y="35.7" fill="#000000" font-family="Verdana" font-size="12">Reserves</text>
+	<text x="14" y="60.8" fill="#000000" font-family="Verdana" font-size="12">idVillage typeReserve</text>
+	<line x1="14" y1="63" x2="145" y2="63" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="77.8" fill="#000000" font-family="Verdana" font-size="12">quantite</text>
+	<text x="14" y="94.8" fill="#000000" font-family="Verdana" font-size="12">quantiteMax</text>
+</g>
+
+<!-- Entity Heros -->
+<g id="entity-Heros">
+	<g id="frame-Heros">
+		<rect x="37" y="127" width="86" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="37" y="152.0" width="86" height="77" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="37" y="127" width="86" height="102" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="37" y1="152" x2="123" y2="152" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="62" y="144.7" fill="#000000" font-family="Verdana" font-size="12">Heros</text>
+	<text x="42" y="169.7" fill="#000000" font-family="Verdana" font-size="12">idHeros</text>
+	<line x1="42" y1="172" x2="89" y2="172" stroke="#000000" stroke-width="1"/>
+	<text x="42" y="186.8" fill="#000000" font-family="Verdana" font-size="12">typeHeros</text>
+	<text x="42" y="203.8" fill="#000000" font-family="Verdana" font-size="12">niveauHeros</text>
+	<text x="42" y="220.8" fill="#000000" font-family="Verdana" font-size="12">vieHeros</text>
+</g>
+
+<!-- Entity Village -->
+<g id="entity-Village">
+	<g id="frame-Village">
+		<rect x="308" y="119" width="120" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="308" y="144.0" width="120" height="93" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="308" y="119" width="120" height="118" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="308" y1="144" x2="428" y2="144" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="347" y="136.7" fill="#000000" font-family="Verdana" font-size="12">Village</text>
+	<text x="313" y="161.7" fill="#000000" font-family="Verdana" font-size="12">idVillage</text>
+	<line x1="313" y1="164" x2="365" y2="164" stroke="#000000" stroke-width="1"/>
+	<text x="313" y="178.8" fill="#000000" font-family="Verdana" font-size="12">nomJoueur</text>
+	<text x="313" y="195.8" fill="#000000" font-family="Verdana" font-size="12">niveauJoueur</text>
+	<text x="313" y="212.8" fill="#000000" font-family="Verdana" font-size="12">capaciteCampMax</text>
+	<text x="313" y="229.8" fill="#000000" font-family="Verdana" font-size="12">trophees</text>
+</g>
+
+<!-- Entity Troupe -->
+<g id="entity-Troupe">
+	<g id="frame-Troupe">
+		<rect x="33" y="254" width="94" height="25" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+		<rect x="33" y="279.0" width="94" height="127" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+		<rect x="33" y="254" width="94" height="152" fill="none" stroke="#d6604d" stroke-width="2"/>
+		<line x1="33" y1="279" x2="127" y2="279" stroke="#d6604d" stroke-width="1"/>
+	</g>
+	<text x="58" y="271.7" fill="#000000" font-family="Verdana" font-size="12">Troupe</text>
+	<text x="38" y="296.7" fill="#000000" font-family="Verdana" font-size="12">idTroupe</text>
+	<line x1="38" y1="299" x2="92" y2="299" stroke="#000000" stroke-width="1"/>
+	<text x="38" y="313.7" fill="#000000" font-family="Verdana" font-size="12">nomTroupe</text>
+	<text x="38" y="330.8" fill="#000000" font-family="Verdana" font-size="12">pointsVie</text>
+	<text x="38" y="347.8" fill="#000000" font-family="Verdana" font-size="12">degats</text>
+	<text x="38" y="364.8" fill="#000000" font-family="Verdana" font-size="12">placeOccupee</text>
+	<text x="38" y="381.8" fill="#000000" font-family="Verdana" font-size="12">prixElixir</text>
+	<text x="38" y="398.8" fill="#000000" font-family="Verdana" font-size="12">prixElixirNoir</text>
+</g>
+</svg>

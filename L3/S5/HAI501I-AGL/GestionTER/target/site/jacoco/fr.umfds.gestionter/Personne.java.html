@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Personne.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">gestionTER</a> &gt; <a href="index.source.html" class="el_package">fr.umfds.gestionter</a> &gt; <span class="el_source">Personne.java</span></div><h1>Personne.java</h1><pre class="source lang-java linenums">package fr.umfds.gestionter;
+import java.lang.String;
+
+public class Personne {
+  private int id;
+  private String prenom;
+  private String nom;
+
+  public void setId(int id) {
+<span class="fc" id="L10">    this.id = id;</span>
+<span class="fc" id="L11">  }</span>
+
+  public void setPrenom(String prenom) {
+<span class="fc" id="L14">    this.prenom = prenom;</span>
+<span class="fc" id="L15">  }</span>
+
+  public void setNom(String nom) {
+<span class="fc" id="L18">    this.nom = nom;</span>
+<span class="fc" id="L19">  }</span>
+
+  public int getId() {
+<span class="fc" id="L22">    return id;</span>
+  }
+
+  public String getPrenom() {
+<span class="fc" id="L26">    return prenom;</span>
+  }
+
+  public String getNom() {
+<span class="fc" id="L30">    return nom;</span>
+  }
+
+<span class="fc" id="L33">  public Personne() throws ObjetInvalide {</span>
+<span class="fc" id="L34">    this.id = 0;</span>
+<span class="fc" id="L35">    this.prenom = &quot;&quot;;</span>
+<span class="fc" id="L36">    this.nom = &quot;&quot;;</span>
+<span class="fc" id="L37">  }</span>
+
+<span class="fc" id="L39">  public Personne(int id, String prenom, String nom) throws ObjetInvalide {</span>
+<span class="fc bfc" id="L40" title="All 2 branches covered.">    if (id &lt; 0) {</span>
+<span class="fc" id="L41">      throw new ObjetInvalide(&quot;L'id ne peut pas être négative ou inférieure à 0 !&quot;);</span>
+    }
+<span class="fc" id="L43">    this.id = id;</span>
+<span class="fc" id="L44">    this.prenom = prenom;</span>
+<span class="fc" id="L45">    this.nom = nom;</span>
+<span class="fc" id="L46">  }</span>
+
+  public String toString() {
+<span class="fc" id="L49">    return &quot;\n N° &quot; + id + &quot; | Nom : &quot; + nom + &quot; Prenom : &quot; + prenom;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

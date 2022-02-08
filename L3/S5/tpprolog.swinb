@@ -1,0 +1,74 @@
+<div class="notebook">
+
+<div class="nb-cell program" name="p1">
+homme(albert).
+homme(jean).
+homme(paul).
+homme(bertrand).
+homme(louis).
+homme(benoit).
+homme(edgar).
+femme(germaine).
+femme(christiane).
+femme(simone).
+femme(marie).
+femme(sophie).
+femme(madeleine).
+parent(albert,jean).
+parent(jean,paul).
+parent(paul,bertrand).
+parent(paul,sophie).
+parent(jean,simone).
+parent(louis,benoit).
+parent(paul,edgar).
+parent(germaine,jean).
+parent(christiane,simone).
+parent(christiane,paul).
+parent(simone,benoit).
+parent(marie,bertrand).
+parent(marie,sophie).
+parent(madeleine,edgar).
+
+pere(X,Y) :- homme(X), parent(X,Y).
+mere(X,Y) :- femme(X), parent(X,Y).
+fils(X,Y) :- homme(X), parent(Y,X).
+fille(X,Y) :- femme(X), parent(Y,X).
+grand_pere(X,Y) :- homme(X), parent(X,Z), parent(Z,Y).
+grand_mere(X,Y) :- femme(X), parent(X,Z), parent(Z,Y).
+granparent(X,Y) :- parent(X,Z), parent(Z,Y).
+frere(X,Y) :- X \== Y, homme(X), pere(Z,X), pere(Z,Y), mere(Z,X), mere(Z,Y).
+soeur(X,Y) :- X \== Y, femme(X), pere(Z,X), pere(Z,Y), mere(A,X), mere(A,Y).
+demifrere(X,Y) :- \+ (frere(X,Y)), homme(X), parent(Z,X), parent(Z,Y).
+demisoeur(X,Y) :- \+ (soeur(X,Y)), homme(X), parent(Z,X), parent(Z,Y).
+cousin(X,Y) :- \+ (soeur(X,Y)), \+ (frere(X,Y)), granparent(Z,X), granparent(Z,Y).
+
+ancetre(X,Y) :- parent(X,Y).
+ancetre(X,Y) :- parent(X,Z), ancetre(Z,Y).
+descendant(X,Y) :- parent(Y,X).
+descendant(X,Y) :- parent(Y,Z), ancetre(Z,X).
+memefamille(X,Y) :- ancetre(Z,X), ancetre(Z,Y).
+
+C.i)
+appartient(X,[X|_]).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>

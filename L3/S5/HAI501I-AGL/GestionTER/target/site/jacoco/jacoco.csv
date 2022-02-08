@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+gestionTER,fr.umfds.gestionter,Enseignant,0,19,0,2,0,6,0,3,0,2
+gestionTER,fr.umfds.gestionter,Soutenance,266,0,14,0,48,0,13,0,6,0
+gestionTER,fr.umfds.gestionter,Personne,0,72,0,2,0,22,0,10,0,9
+gestionTER,fr.umfds.gestionter,Groupe,0,99,0,0,0,32,0,12,0,12
+gestionTER,fr.umfds.gestionter,Etudiant,0,19,0,2,0,6,0,3,0,2
+gestionTER,fr.umfds.gestionter,Voeux,46,0,0,0,11,0,3,0,3,0
+gestionTER,fr.umfds.gestionter,HelloWorldICal4J,62,0,0,0,13,0,2,0,2,0
+gestionTER,fr.umfds.gestionter,Sujet,0,140,2,6,0,43,2,16,0,14
+gestionTER,fr.umfds.gestionter,ObjetInvalide,0,4,0,0,0,2,0,1,0,1

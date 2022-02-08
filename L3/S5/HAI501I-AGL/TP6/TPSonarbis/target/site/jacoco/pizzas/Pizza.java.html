@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Pizza.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TPsonarbis</a> &gt; <a href="index.source.html" class="el_package">pizzas</a> &gt; <span class="el_source">Pizza.java</span></div><h1>Pizza.java</h1><pre class="source lang-java linenums">package pizzas;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+public class Pizza {
+<span class="fc" id="L8">	private List&lt;Ingredient&gt; composition =new ArrayList&lt;&gt;();</span>
+	private String nom;
+	private float prix;
+
+
+
+	public boolean estRouge(){
+<span class="nc bnc" id="L15" title="All 2 branches missed.">		for (Ingredient i:composition){</span>
+<span class="nc bnc" id="L16" title="All 2 branches missed.">			if (i.getNom().equals(&quot;sauce tomate&quot;)) return true;</span>
+		}
+<span class="nc" id="L18">		return false;</span>
+	}
+
+	public boolean estBlanche(){
+<span class="nc" id="L22">		boolean sauceTomate=false;</span>
+<span class="nc" id="L23">		boolean creme=false;</span>
+<span class="nc bnc" id="L24" title="All 2 branches missed.">		for (Ingredient i:composition){</span>
+<span class="nc bnc" id="L25" title="All 2 branches missed.">			if (i.getNom().equals(&quot;sauce tomate&quot;)) sauceTomate=true;</span>
+<span class="nc bnc" id="L26" title="All 2 branches missed.">			if (i.getNom().equals(&quot;crème fraîche&quot;)) creme=true;</span>
+		}
+<span class="nc bnc" id="L28" title="All 4 branches missed.">		return !sauceTomate&amp;&amp;creme;</span>
+	}
+
+	public boolean  estVegetarienne(){
+<span class="nc" id="L32">		boolean result=true;</span>
+<span class="nc bnc" id="L33" title="All 2 branches missed.">		for (Ingredient i:composition){</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">			if (!i.isVegetarien()) return false;</span>
+		}
+<span class="nc" id="L36">		return result;</span>
+	}
+
+<span class="fc" id="L39">	public Pizza(String nom, float prix){</span>
+<span class="fc" id="L40">		this.nom=nom;</span>
+<span class="fc" id="L41">		this.prix=prix;</span>
+<span class="fc" id="L42">		composition = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L43">	}</span>
+
+
+
+	public void ajoutIngredient(Ingredient i){
+<span class="fc bfc" id="L48" title="All 2 branches covered.">		if (!composition.contains(i)){</span>
+<span class="fc" id="L49">			composition.add(i);</span>
+		}
+<span class="fc" id="L51">	}</span>
+
+	public String getNom() {
+<span class="fc" id="L54">		return nom;</span>
+	}
+
+	public float getPrix() {
+<span class="fc" id="L58">		return prix;</span>
+	}
+	
+	@Override
+	public boolean equals(Object o) {
+<span class="pc bpc" id="L63" title="1 of 2 branches missed.">		if (o == null)</span>
+<span class="nc" id="L64">		    return false;</span>
+
+<span class="pc bpc" id="L66" title="1 of 2 branches missed.">		if (this.getClass() != o.getClass())</span>
+<span class="nc" id="L67">		    return false;</span>
+		  
+<span class="fc" id="L69">		Pizza po=(Pizza)o;</span>
+<span class="pc bpc" id="L70" title="1 of 4 branches missed.">		return nom.equals(po.getNom())&amp;&amp; po.getPrix()==prix;</span>
+	}
+	
+	public int hashCode() {
+<span class="nc" id="L74">		return Objects.hash(composition, nom, prix);</span>
+	}
+
+	public void veganize() {
+<span class="nc" id="L78">		nom=nom+&quot; vegan&quot;;</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">		for (Ingredient i:composition) {</span>
+<span class="nc bnc" id="L80" title="All 2 branches missed.">			if (!i.isVegetarien()) {</span>
+<span class="nc" id="L81">				composition.remove(i);</span>
+			}
+		}
+<span class="nc" id="L84">	}</span>
+	
+	public StringBuilder formattedIngredients() {
+<span class="fc" id="L87">		StringBuilder s = new StringBuilder();</span>
+<span class="fc bfc" id="L88" title="All 2 branches covered.">		for (Ingredient ing:composition) {</span>
+<span class="fc" id="L89">			s.append(ing.getNom()+&quot; &quot;);</span>
+		}
+<span class="fc" id="L91">		return s;</span>
+	}
+	
+	public Ingredient[] ingredients() {
+<span class="fc" id="L95">		return composition.toArray(new Ingredient[0]);</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

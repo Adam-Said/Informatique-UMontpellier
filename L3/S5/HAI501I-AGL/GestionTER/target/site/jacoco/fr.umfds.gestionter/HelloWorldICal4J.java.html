@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>HelloWorldICal4J.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">gestionTER</a> &gt; <a href="index.source.html" class="el_package">fr.umfds.gestionter</a> &gt; <span class="el_source">HelloWorldICal4J.java</span></div><h1>HelloWorldICal4J.java</h1><pre class="source lang-java linenums">package fr.umfds.gestionter;
+
+
+import net.fortuna.ical4j.model.property.ProdId;
+import net.fortuna.ical4j.model.property.Version;
+import net.fortuna.ical4j.util.FixedUidGenerator;
+import net.fortuna.ical4j.util.UidGenerator;
+
+import java.net.SocketException;
+
+import net.fortuna.ical4j.model.Date;
+import net.fortuna.ical4j.model.component.VEvent;
+import net.fortuna.ical4j.model.property.CalScale;
+
+<span class="nc" id="L15">public class HelloWorldICal4J {</span>
+	public static void main(String[] args) throws SocketException {
+		// Code extrait de la documentation de ICal4J
+		
+<span class="nc" id="L19">		net.fortuna.ical4j.model.Calendar cal = new net.fortuna.ical4j.model.Calendar();</span>
+<span class="nc" id="L20">		cal.getProperties().add(new ProdId(&quot;-//Ben Fortuna//iCal4j 1.0//EN&quot;));</span>
+<span class="nc" id="L21">		cal.getProperties().add(Version.VERSION_2_0);</span>
+<span class="nc" id="L22">		cal.getProperties().add(CalScale.GREGORIAN);</span>
+
+		// Add events, etc..
+
+
+
+<span class="nc" id="L28">		java.util.Calendar calendar = java.util.Calendar.getInstance();</span>
+<span class="nc" id="L29">		calendar.set(java.util.Calendar.MONTH, java.util.Calendar.DECEMBER);</span>
+<span class="nc" id="L30">		calendar.set(java.util.Calendar.DAY_OF_MONTH, 25);</span>
+
+		// initialise as an all-day event..
+<span class="nc" id="L33">		VEvent christmas = new VEvent(new Date(calendar.getTime()), &quot;Christmas Day&quot;);</span>
+
+		// Generate a UID for the event..
+<span class="nc" id="L36">		UidGenerator ug = new FixedUidGenerator(&quot;1&quot;);</span>
+<span class="nc" id="L37">		christmas.getProperties().add(ug.generateUid());</span>
+
+		
+<span class="nc" id="L40">		cal.getComponents().add(christmas);</span>
+<span class="nc" id="L41">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

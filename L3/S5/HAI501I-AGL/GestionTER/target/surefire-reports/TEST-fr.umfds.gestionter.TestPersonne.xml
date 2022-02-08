@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="fr.umfds.gestionter.TestPersonne" time="0.001" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/test-classes:/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/classes:/home/e20190003865/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/e20190003865/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/e20190003865/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/e20190003865/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/e20190003865/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/e20190003865/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/e20190003865/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/e20190003865/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/e20190003865/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar:/home/e20190003865/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar:/home/e20190003865/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar:/home/e20190003865/.m2/repository/org/mnode/ical4j/ical4j/3.1.0/ical4j-3.1.0.jar:/home/e20190003865/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/e20190003865/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/e20190003865/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/e20190003865/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/e20190003865/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/surefire/surefirebooter12359141932199836095.jar /home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/surefire 2021-12-11T12-53-58_958-jvmRun1 surefire12709514708796001889tmp surefire_010716174150656790717tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/test-classes:/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/classes:/home/e20190003865/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/e20190003865/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/e20190003865/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/e20190003865/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/e20190003865/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/e20190003865/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/e20190003865/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/e20190003865/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/e20190003865/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar:/home/e20190003865/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar:/home/e20190003865/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar:/home/e20190003865/.m2/repository/org/mnode/ical4j/ical4j/3.1.0/ical4j-3.1.0.jar:/home/e20190003865/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/e20190003865/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/e20190003865/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/e20190003865/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/e20190003865/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/e20190003865"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER/target/surefire/surefirebooter12359141932199836095.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="user.name" value="adam.said@etu.umontpellier.fr"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-91-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/e20190003865/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="/home/e20190003865/Bureau/TP-L3/HAI501I-AGL/GestionTER"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value=":/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="fr.umfds.gestionter.TestPersonne" time="0"/>
+  <testcase name="testToString" classname="fr.umfds.gestionter.TestPersonne" time="0"/>
+  <testcase name="TestSetterGetterPersonne" classname="fr.umfds.gestionter.TestPersonne" time="0"/>
+</testsuite>

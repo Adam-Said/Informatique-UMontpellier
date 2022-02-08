@@ -1,0 +1,7 @@
+organization=gaiko19-1
+projectKey=Gaiko19_TPSonarbis
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.25394
+dashboardUrl=https://sonarcloud.io/dashboard?id=Gaiko19_TPSonarbis
+ceTaskId=AX2pT985XwIXOUiai5p3
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX2pT985XwIXOUiai5p3
