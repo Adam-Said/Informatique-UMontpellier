@@ -1,3 +1,3 @@
-# TP-L2
-## Correction des TPs de L2 Info par Adam S
+# TPs L2 et L3
+## Correction des TPs Info par Adam S
 ## Université de Montpellier | 2020-2021
