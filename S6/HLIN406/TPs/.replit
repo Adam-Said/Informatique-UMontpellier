@@ -1,1 +1,0 @@
-run = "javac tdExceptionsAssertions/*.java; java tdExceptionsAssertions.TestPile;"
