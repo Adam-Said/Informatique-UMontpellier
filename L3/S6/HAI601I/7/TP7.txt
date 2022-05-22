@@ -1,0 +1,9 @@
+1.  lettre -> [a-z]
+    ep -> @
+    vide -> 0
+    union -> |
+    conc -> ""
+    mul -> *
+    G = ({[a - z], |, *, (, )}, {@}, R, E )
+    
+2.  G = {}
