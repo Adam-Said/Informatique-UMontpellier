@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hai704i</groupId>
+  <artifactId>calculator.client</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>CalculatorClient</name>
+    <dependencies>
+	  	<dependency>
+	    <groupId>org.glassfish.jaxb</groupId>
+	    <artifactId>txw2</artifactId>
+	    <version>2.4.0-b180830.0438</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.jboss.spec</groupId>
+	    <artifactId>jboss-javaee-6.0</artifactId>
+	    <version>1.0.0.Final</version>
+	    <type>pom</type>
+	    <scope>provided</scope>
+	</dependency>
+	<dependency>
+	    <groupId>com.sun.xml.ws</groupId>
+	    <artifactId>rt</artifactId>
+	    <version>2.3.1</version>
+	</dependency>
+  </dependencies>
+</project>
