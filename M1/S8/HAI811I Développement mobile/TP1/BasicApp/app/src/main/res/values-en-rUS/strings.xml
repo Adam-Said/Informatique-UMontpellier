@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAI811I TP1</string>
+    <string name="name_placeholder">Name</string>
+    <string name="firstname_placeholder">Firstname</string>
+    <string name="tel_placeholder">Phone number</string>
+    <string name="domain_placeholder">Field of activity</string>
+    <string name="validate_button">Validate ✅</string>
+    <string name="validation_title">Confirm your infos</string>
+    <string name="validation_msg">Do you confirm the infos you entered ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="infos_title_edit">Add a new contact</string>
+    <string name="infos_title_view">Identified</string>
+    <string name="back">⬅ Back</string>
+    <string name="Call">Call 📞</string>
+    <string name="arrival">Arrival</string>
+    <string name="departure">Departure</string>
+    <string name="search">Search</string>
+    <string name="add">add</string>
+    <string name="new_event">New event</string>
+    <string name="action">What do you want to do ?</string>
+    <string name="confirm">Confirm the infos</string>
+    <string name="train_title">Search for your next trip</string>
+    <string name="language_option">🇬🇧 Change the language</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HAI811I TP1</string>
+    <string name="name_placeholder">Nom</string>
+    <string name="firstname_placeholder">Prénom</string>
+    <string name="tel_placeholder">Numéro de téléphone</string>
+    <string name="domain_placeholder">Domaine d\'activité</string>
+    <string name="validate_button">Valider ✅</string>
+    <string name="validation_title">Confirmer les informations</string>
+    <string name="validation_msg">Confirmez-vous les informations fournies ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="infos_title_edit">Ajouter un contact</string>
+    <string name="infos_title_view">Identifié</string>
+    <string name="back">⬅ Retour</string>
+    <string name="Call">Appeler 📞</string>
+    <string name="arrival">Arrivé</string>
+    <string name="departure">Départ</string>
+    <string name="search">Rechercher</string>
+    <string name="add">Ajouter</string>
+    <string name="new_event">Nouvel évènement</string>
+    <string name="action">Que voulez vous faire ?</string>
+    <string name="age" translatable="false">Age</string>
+    <string name="confirm">Confirmez les informations</string>
+    <string name="train_title">Chercher votre prochain trajet</string>
+    <string name="language_option">"🇫🇷 Changer la langue "</string>
+</resources>

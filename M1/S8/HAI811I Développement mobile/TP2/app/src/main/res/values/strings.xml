@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TP2 Capteurs</string>
+    <string name="sensor_list">Sensor list</string>
+    <string name="sensor_presence">Available sensors</string>
+    <string name="sensor_absence">Unavailable sensors</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="direction">Direction</string>
+    <string name="shake_proximity">Shake and Proximity</string>
+    <string name="geolocalization">Geolocalization</string>
+    <string name="finding_localization">Finding localization...</string>
+    <string name="position">Your Position</string>
+</resources>
