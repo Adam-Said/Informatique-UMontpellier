@@ -9,4 +9,4 @@ Les corrections de ce répertoire sont fournies dans le but d'aider les étudian
 
 Nous incitons fortement à ne pas copier/coller du code ou recopier des exercices machinalement, les corrections doivent servir aux étudiants à comprendre, et non pas à plagier.
 
-Aucun sujet de TD/TP ne se trouvera sur ce répertoire, car ils ne nous appartiennent pas. De même, le code déposé ici a été écrit dans son intégralité, ou quasi-intégralité, par les auteurs précisés dans les entêtes des fichiers. 
+Si un fichier/sujet vous appartenant se trouve sur ce répertoire vous pouvez le signaler en ouvrant une issue [ici](https://github.com/Adam-Said/Informatique-UMontpellier/issues/).
